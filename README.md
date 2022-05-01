@@ -1,11 +1,11 @@
 # flappybird
 esta pagina contiene 
 
-## autores 
+### autores 
 * Gomez Ganancias, Aimara
 * Marengo, Juliana
 
-## tecnologias usadas
+### tecnologias usadas
 * HTML5
 * CSS3
 
