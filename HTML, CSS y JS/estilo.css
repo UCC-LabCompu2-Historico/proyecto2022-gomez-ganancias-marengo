@@ -1,17 +1,20 @@
-/*Fondo del juego*/
+/*Fondo del juego de forma responsive*/
 body{
-	background-image: url(fondo0.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-
+    background-image: url(img/fondo0.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
+
 /*diseño de cada etiqueta (heading y parrafo)*/
 
 h1{ font-size: 3.5em;}
 h2{ font-size: 1.75em;
 	margin-top: 40px;}
 h3{ font-size: 25px;
-	margin-top: 0.2%;
+	margin-top: 0.7%;
 	color:#000000;
 	background-color: #3BBD83;
 	border-radius: 7px;
@@ -53,6 +56,7 @@ button{
 	font-size: 25px;
 	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
 	padding: 10px 30px;
 	border-radius: 7px;
 	border: 2px solid #525A58;
@@ -60,18 +64,34 @@ button{
 	color: black;
 	background-color: #06C98D;
 }
+/*boton de Salir*/
+#Salir{
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 7px;
+    margin-left: 46%;
+    margin-top: 7px;
+	border: 2px solid #525A58;
+	box-shadow: 2px 2px 10px #505050;
+	color: black;
+	background-color: #06C98D;
+    position: relative;
+}
+#Salir:hover{
+	background-color:#3DA97A;
+}
+
 /*Cambia de color cuando se acerca el cursor de los botones*/
 button:hover{
 	background-color:#1E755A;
 }
 
-/* subtitulos de como jugar, puntaje, game over*/
+/* subtitulos de como jugar*/ 
 .alineacion{
 
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	padding: 20px;
-
 }
 #subtitulo{
 	margin-top: 5px;
@@ -80,24 +100,17 @@ button:hover{
 	text-decoration-line: underline;
 }
 
-/*select nivel de dificultad*/
-select{
-	margin-top:30px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: bolder;
-	padding: 10px 5px;
-	width: 13%;
-	background-color: #3BBD83;
-	color:#000000;
-	border-radius: 7px;
+img{
+     max-width: 16%;
+     max-height: 16%;
+     display: block;
+     margin: 0px auto;
+   
 }
-/*Cambia de color cuando se acerca el cursor del nivel de dificultad*/
-select:hover{
-	background-color:#3EC689;
-}
-/*Space del como jugar*/
+/*Click o space del como jugar*/
 .color-extra{
-	color:#131715;
+	color:#195B27;
+    
 }
 
 /*pie de pagina*/
