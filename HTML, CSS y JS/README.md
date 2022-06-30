@@ -1,13 +1,15 @@
-# flappybird
-esta pagina contiene 
+# Flappybird
+* Link al sitio:
 
-### autores 
+
+### Autores: 
 * Gomez Ganancias, Aimara
 * Marengo, Juliana
 
-### tecnologias usadas
+### Tecnologias usadas:
 * HTML5
 * CSS3
+* JS
 
 Estructura de Proyecto Lab de Compu II - 2022
 
