@@ -1,5 +1,5 @@
 # flappybird
-esta pagina contiene 
+Un juego cuyo funcionamiento consiste en mantener volando a un pequeño pájaro pixelado que ha de pasar entre tuberías.
 
 ### autores 
 * Gomez Ganancias, Aimara
