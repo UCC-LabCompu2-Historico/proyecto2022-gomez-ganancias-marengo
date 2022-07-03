@@ -425,8 +425,8 @@ const puntaje = {
             ctx.fillText(this.value, 225, 186);
             ctx.strokeText(this.value, 225, 186);
             // valor del mejor puntaje obtenido hasta la ultima partida.
-            ctx.fillText(this.best, 215, 228);
-            ctx.strokeText(this.best, 215, 228);
+            ctx.fillText(this.best, 225, 228);
+            ctx.strokeText(this.best, 225, 228);
         }
     },
     //se resetea a 0 el puntaje cuando inicia de vuelta.
