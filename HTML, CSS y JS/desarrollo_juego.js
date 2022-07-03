@@ -1,5 +1,3 @@
-// noinspection JSCheckFunctionSignatures
-
 /*
     Esta función chequea que el campo donde se ingresa el nombre no se encuentre vacío.
     En caso de que lo esté, arroja una alerta.
