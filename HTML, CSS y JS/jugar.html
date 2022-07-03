@@ -1,36 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <title>Jugar</title>
-   <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="keywords" content="juego, Flappy Bird, juego en linea">
     <meta name="autores" content="Aimara Gomez y Juliana Marengo">
     <link rel="icon" href="img/flappybird.ico">
-    <meta name="description" content="Es un juego en linea cuyo funcionamiento consiste en mantener volando a un pequeño pájaro pixelado que ha de pasar entre tuberías">
+    <meta name="description"
+          content="Es un juego en linea cuyo funcionamiento consiste en mantener volando a un pequeño pájaro pixelado que ha de pasar entre tuberías">
     <!--css dirigido al archivo de css-->
     <link rel="stylesheet" type="text/css" href="estilo.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap"rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="desarrollo_juego.js"></script>
 </head>
 
 <body>
-<h1 class="titulo-h1">Flappy Bird</h1>
-
+<h1 class="titulo-h1">¿Estás seguro de aceptar el desafio?</h1>
 
 <div class="alineacion">
-     <h3>¿Estás seguro de aceptar el desafio?
-    </h3>  
-    <form action="desarrollo_juego.html">
-            <img src="img/desafio.gif"> 
-          <button type="submit" class="selected">Empezar</button>
-    </form>
+    <div class="nombre">
+        <h3><label for="nombre">Ingrese su Nombre:</label></h3><br>
+        <input type="text" size="20" id="nombre" placeholder="nombre del jugador"><br>
+    </div>
+    <div class="boton">
+        <p>
+            <img src="img/desafio.gif" alt="edna moda mirada desafiante">
+            <button id="avanzar" onclick="alerta_si_esta_vacio()">Empezar</button>
+        </p>
+
+    </div>
 </div>
- 
 <footer>
     <!-- Pie de página con autores-->
     <h5 id="id-autores">&copy;Autores: Aimara Gomez Ganancias y Juliana Marengo.</h5>
 </footer>
 </body>
-
-
 </html>
