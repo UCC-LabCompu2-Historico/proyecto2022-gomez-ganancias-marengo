@@ -144,7 +144,7 @@ img {
 
 }
 /*Diseño del canvas*/
-canvas {
+#id-personaje{
 
             border: 5px solid #259564;
             margin-top: 100px;
