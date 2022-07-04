@@ -143,6 +143,16 @@ img {
     color: #195B27;
 
 }
+/*Diseño del canvas*/
+canvas {
+
+            border: 5px solid #259564;
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 7px;
+            display: block;
+}
 
 /*pie de pagina*/
 #id-autores {
