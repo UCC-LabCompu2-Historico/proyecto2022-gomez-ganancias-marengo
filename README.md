@@ -1,6 +1,6 @@
 # flappybird
 Un juego cuyo funcionamiento consiste en mantener volando a un pequeño pájaro pixelado que ha de pasar entre tuberías.
-* link del juego: [FlappyBird](https://ucc-labcompu2.github.io/proyecto2022-gomez-ganancias-marengo/HTML%2C%20CSS%20y%20JS/index.html)
+* link del juego: [FlappyBird](https://ucc-labcompu2-Historico.github.io/proyecto2022-gomez-ganancias-marengo/HTML%2C%20CSS%20y%20JS/index.html)
 
 ### autores 
 * Gomez Ganancias, Aimara
